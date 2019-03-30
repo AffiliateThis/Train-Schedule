@@ -1,0 +1,9 @@
+
+html,
+body {
+    
+    text-align: center;
+    background-image: url("assets/images/trainmeadow.PNG"); 
+    max-width: 960px; 
+}
+
