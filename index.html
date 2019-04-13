@@ -51,11 +51,10 @@
                             <thead>
                                 <tr>
                                     <th scope="col">Train Name</th>
-                                    <th scope="col">Train Number</th>
                                     <th scope="col">Destination</th>
-                                    <th scope="col">Departure Time</th>
-                                    <th scope="col">Arrival Time</th>
-                                    <th scope="col">Estimated Arrival Time to Station</th>
+                                    <th scope="col">First Train</th>
+                                    <th scope="col">Frequency</th>
+                                    <th scope="col">Next Train</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -76,25 +75,21 @@
                         <!-- Entry Form -->
                         <form>
                             <div class="form-group">
-                                <label for="employee-name-input">Train Name</label>
-                                <input class="form-control" id="Train-name-input" placeholder="Northeastern"
+                                <label for="Train-name-input">Train Name</label>
+                                <input class="form-control" id="train-name-input" placeholder="Northeastern"
                                     type="text">
                             </div>
                             <div class="form-group">
-                                <label for="role-input">Train Number</label>
-                                <input class="form-control" id="trainNum-input" placeholder="00" type="number">
-                            </div>
-                            <div class="form-group">
-                                <label for="start-input">Destination</label>
+                                <label for="destination-input">Destination</label>
                                 <input class="form-control" id="destination-input" placeholder="New York" type="text">
                             </div>
                             <div class="form-group">
-                                <label for="rate-input">Departure Time</label>
-                                <input class="form-control" id="departure-input" placeholder="10:00 am" type="time">
+                                <label for="departure-input">First Train</label>
+                                <input class="form-control" id="first-time-input" placeholder="10:00 am" type="time">
                             </div>
                             <div class="form-group">
-                                <label for="rate-input">Arrival Time</label>
-                                <input class="form-control" id="arrival-input" placeholder="10:00 am" type="time">
+                                <label for="arrival-input">Frequency</label>
+                                <input class="form-control" id="frequency-input" placeholder="5" type="number">
                             </div>
 
                             <button class="btn btn-primary float-right" id="add-train-btn">Submit</button>
